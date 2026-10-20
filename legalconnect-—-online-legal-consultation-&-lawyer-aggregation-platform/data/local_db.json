@@ -1,0 +1,3214 @@
+{
+  "users": [
+    {
+      "_id": "6ad75ca1f608811ab37160f2",
+      "id": "6ad75ca1f608811ab37160f2",
+      "name": "Platform Administrator",
+      "email": "admin@legalconnect.com",
+      "passwordHash": "$2b$10$9AQU7p7kROD9kL21Ia0DM.Mmx3M.EWIFM5J0NXPxrxNO507Zm7WJS",
+      "role": "admin",
+      "phone": "+1 (555) 019-2834",
+      "city": "New York",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.460Z",
+      "updatedAt": "2026-10-20T12:20:49.460Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f3",
+      "id": "6ad75ca1f608811ab37160f3",
+      "name": "Adv. Rajesh Sharma",
+      "email": "rajesh.lawyer@example.com",
+      "passwordHash": "$2b$10$9AQU7p7kROD9kL21Ia0DM.NuoXLbhUeQ.CU9ga/8wKBzQ.ptdeDr2",
+      "role": "lawyer",
+      "phone": "+1 (555) 456-7890",
+      "city": "New York",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.460Z",
+      "updatedAt": "2026-10-20T12:20:49.460Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f5",
+      "id": "6ad75ca1f608811ab37160f5",
+      "name": "Adv. Elena Rostova",
+      "email": "elena.lawyer@example.com",
+      "passwordHash": "$2b$10$9AQU7p7kROD9kL21Ia0DM.NuoXLbhUeQ.CU9ga/8wKBzQ.ptdeDr2",
+      "role": "lawyer",
+      "phone": "+1 (555) 567-8901",
+      "city": "San Francisco",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f7",
+      "id": "6ad75ca1f608811ab37160f7",
+      "name": "Adv. Marcus Vance",
+      "email": "marcus.lawyer@example.com",
+      "passwordHash": "$2b$10$9AQU7p7kROD9kL21Ia0DM.NuoXLbhUeQ.CU9ga/8wKBzQ.ptdeDr2",
+      "role": "lawyer",
+      "phone": "+1 (555) 678-9012",
+      "city": "Chicago",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f9",
+      "id": "6ad75ca1f608811ab37160f9",
+      "name": "Adv. Maya Lin",
+      "email": "maya.lawyer@example.com",
+      "passwordHash": "$2b$10$9AQU7p7kROD9kL21Ia0DM.NuoXLbhUeQ.CU9ga/8wKBzQ.ptdeDr2",
+      "role": "lawyer",
+      "phone": "+1 (555) 789-0123",
+      "city": "Seattle",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad75fce85e58b06221339f7",
+      "id": "6ad75fce85e58b06221339f7",
+      "name": "Test Client",
+      "email": "testclient@example.com",
+      "passwordHash": "$2b$10$P0b29azKzjEWxsfHTPQF9eS.U8.N80QsBUXulUNDQeWEget.e2fZe",
+      "role": "client",
+      "phone": "",
+      "city": "",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:34:22.863Z",
+      "updatedAt": "2026-10-20T12:34:29.840Z",
+      "lastLogin": "2026-10-20T12:34:29.840Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacea",
+      "id": "6ad761de2f64aa66e9bdacea",
+      "name": "Sarah Jenkins (Verified Client)",
+      "email": "client@legalconnect.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuCDNZ6hO8iSYlK.j/kXbec5I61Fv.cVa",
+      "role": "client",
+      "phone": "+1 (555) 234-5678",
+      "city": "San Francisco",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.198Z",
+      "updatedAt": "2026-10-20T16:11:48.030Z",
+      "lastLogin": "2026-10-20T16:11:48.030Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdaceb",
+      "id": "6ad761de2f64aa66e9bdaceb",
+      "name": "Sarah Jenkins",
+      "email": "client.sarah@example.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuCDNZ6hO8iSYlK.j/kXbec5I61Fv.cVa",
+      "role": "client",
+      "phone": "+1 (555) 234-5678",
+      "city": "San Francisco",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.199Z",
+      "updatedAt": "2026-10-20T12:43:10.199Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacec",
+      "id": "6ad761de2f64aa66e9bdacec",
+      "name": "Shraddha Kharade (Client)",
+      "email": "shrddhkharade@gmail.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuCDNZ6hO8iSYlK.j/kXbec5I61Fv.cVa",
+      "role": "client",
+      "phone": "+1 (555) 882-9102",
+      "city": "San Francisco",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.199Z",
+      "updatedAt": "2026-10-20T12:43:41.699Z",
+      "lastLogin": "2026-10-20T12:43:41.699Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdaced",
+      "id": "6ad761de2f64aa66e9bdaced",
+      "name": "Adv. David Sterling",
+      "email": "david.lawyer@example.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuX0JPpQ44EWsGsbdwGsq2C27a/EHiOJy",
+      "role": "lawyer",
+      "phone": "+1 (555) 890-1234",
+      "city": "Miami",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.200Z",
+      "updatedAt": "2026-10-20T12:43:10.200Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacf4",
+      "id": "6ad761de2f64aa66e9bdacf4",
+      "name": "Adv. Priya Patel",
+      "email": "priya.lawyer@example.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuX0JPpQ44EWsGsbdwGsq2C27a/EHiOJy",
+      "role": "lawyer",
+      "phone": "+1 (555) 901-2345",
+      "city": "Austin",
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.201Z",
+      "updatedAt": "2026-10-20T12:43:10.201Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacfb",
+      "id": "6ad761de2f64aa66e9bdacfb",
+      "name": "Adv. Jonathan Hayes",
+      "email": "jonathan.lawyer@example.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuX0JPpQ44EWsGsbdwGsq2C27a/EHiOJy",
+      "role": "lawyer",
+      "phone": "+1 (555) 012-3456",
+      "city": "Boston",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.202Z",
+      "updatedAt": "2026-10-20T12:43:10.202Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdad02",
+      "id": "6ad761de2f64aa66e9bdad02",
+      "name": "Adv. Amara Okafor",
+      "email": "amara.lawyer@example.com",
+      "passwordHash": "$2b$10$37KhPE4P7NtMAb8XQdZptuX0JPpQ44EWsGsbdwGsq2C27a/EHiOJy",
+      "role": "lawyer",
+      "phone": "+1 (555) 123-4567",
+      "city": "Washington",
+      "avatar": "https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:10.203Z",
+      "updatedAt": "2026-10-20T12:43:10.203Z"
+    },
+    {
+      "_id": "6ad7620707317648d2913adf",
+      "id": "6ad7620707317648d2913adf",
+      "name": "Jennifer Cole",
+      "email": "newclient99@example.com",
+      "passwordHash": "$2b$10$plQ/nT0PHVM2yRcBopzntuIM1G6tnRckfORKo/3rNtMgOmLJRQGFm",
+      "role": "client",
+      "phone": "",
+      "city": "",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T12:43:51.610Z",
+      "updatedAt": "2026-10-20T12:44:04.013Z",
+      "lastLogin": "2026-10-20T12:44:04.013Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b01",
+      "id": "6ad7706c428829c0a3d40b01",
+      "name": "Adv. Carlos Mendez",
+      "email": "carlos.lawyer@example.com",
+      "passwordHash": "$2b$10$/9WDn7TOf0prF//pi54.3e2b0AJQpWScnng7WvKylgZmgk19b0IKi",
+      "role": "lawyer",
+      "phone": "+1 (555) 345-6789",
+      "city": "Houston",
+      "avatar": "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T13:45:16.812Z",
+      "updatedAt": "2026-10-20T13:45:16.812Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b08",
+      "id": "6ad7706c428829c0a3d40b08",
+      "name": "Adv. Sarah Al-Mansoor",
+      "email": "sarah.almansoor.lawyer@example.com",
+      "passwordHash": "$2b$10$/9WDn7TOf0prF//pi54.3e2b0AJQpWScnng7WvKylgZmgk19b0IKi",
+      "role": "lawyer",
+      "phone": "+1 (555) 456-7812",
+      "city": "New York",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T13:45:16.816Z",
+      "updatedAt": "2026-10-20T13:45:16.816Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b0f",
+      "id": "6ad7706c428829c0a3d40b0f",
+      "name": "Adv. Benjamin Thorne",
+      "email": "benjamin.lawyer@example.com",
+      "passwordHash": "$2b$10$/9WDn7TOf0prF//pi54.3e2b0AJQpWScnng7WvKylgZmgk19b0IKi",
+      "role": "lawyer",
+      "phone": "+1 (555) 567-8923",
+      "city": "Charlotte",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T13:45:16.817Z",
+      "updatedAt": "2026-10-20T13:45:16.817Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b16",
+      "id": "6ad7706c428829c0a3d40b16",
+      "name": "Adv. Kavita Deshmukh",
+      "email": "kavita.lawyer@example.com",
+      "passwordHash": "$2b$10$/9WDn7TOf0prF//pi54.3e2b0AJQpWScnng7WvKylgZmgk19b0IKi",
+      "role": "lawyer",
+      "phone": "+1 (555) 678-9034",
+      "city": "Philadelphia",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T13:45:16.818Z",
+      "updatedAt": "2026-10-20T13:45:16.818Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b1d",
+      "id": "6ad7706c428829c0a3d40b1d",
+      "name": "Adv. Liam O'Connor",
+      "email": "liam.lawyer@example.com",
+      "passwordHash": "$2b$10$/9WDn7TOf0prF//pi54.3e2b0AJQpWScnng7WvKylgZmgk19b0IKi",
+      "role": "lawyer",
+      "phone": "+1 (555) 789-0145",
+      "city": "Denver",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T13:45:16.819Z",
+      "updatedAt": "2026-10-20T13:45:16.819Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b24",
+      "id": "6ad7706c428829c0a3d40b24",
+      "name": "Adv. Ananya Iyer",
+      "email": "ananya.lawyer@example.com",
+      "passwordHash": "$2b$10$/9WDn7TOf0prF//pi54.3e2b0AJQpWScnng7WvKylgZmgk19b0IKi",
+      "role": "lawyer",
+      "phone": "+1 (555) 890-1256",
+      "city": "Los Angeles",
+      "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T13:45:16.820Z",
+      "updatedAt": "2026-10-20T13:45:16.820Z"
+    },
+    {
+      "_id": "6ad79178cd60a3ac1a21061d",
+      "id": "6ad79178cd60a3ac1a21061d",
+      "name": "Live Tested Client",
+      "email": "user_1792512376407@testcase.com",
+      "passwordHash": "$2b$10$XWgx.vW.p7/uAwGM3VqnhOHtEd4zwAqqW38UfmirSIMNpm0h6/zQy",
+      "role": "client",
+      "phone": "",
+      "city": "",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T16:06:16.515Z",
+      "updatedAt": "2026-10-20T16:06:16.661Z",
+      "lastLogin": "2026-10-20T16:06:16.661Z"
+    },
+    {
+      "_id": "6ad7918dcd60a3ac1a210622",
+      "id": "6ad7918dcd60a3ac1a210622",
+      "name": "Live Tested Client",
+      "email": "user_1792512397368@testcase.com",
+      "passwordHash": "$2b$10$4Z5FBkSMUmZt8i2fPqKgMeBxx/Sbq73qmEOw8F1Nh/.jqWWo61mOy",
+      "role": "client",
+      "phone": "",
+      "city": "",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T16:06:37.468Z",
+      "updatedAt": "2026-10-20T16:06:37.585Z",
+      "lastLogin": "2026-10-20T16:06:37.585Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba1e",
+      "id": "6ad7921f1bd04d746bf7ba1e",
+      "name": "Realtime Verified Client",
+      "email": "client_1792512542901@testcase.com",
+      "passwordHash": "$2b$10$ybVwjsvSKncfNrGukXhwwOkjroqUazcRnoTNogT944QhaDfqDPLBS",
+      "role": "client",
+      "phone": "",
+      "city": "",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T16:09:03.013Z",
+      "updatedAt": "2026-10-20T16:09:03.124Z",
+      "lastLogin": "2026-10-20T16:09:03.124Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ee6",
+      "id": "6ad792c41f2b11ec5b573ee6",
+      "name": "Realtime Verified Client",
+      "email": "client_1792512708037@testcase.com",
+      "passwordHash": "$2b$10$Ho3LAVu4/DxYxOmF0jymHOITSekm.5WEe5CmmmScjMKArefFdiCM2",
+      "role": "client",
+      "phone": "",
+      "city": "",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "isActive": true,
+      "createdAt": "2026-10-20T16:11:48.167Z",
+      "updatedAt": "2026-10-20T16:11:48.275Z",
+      "lastLogin": "2026-10-20T16:11:48.275Z"
+    }
+  ],
+  "lawyers": [
+    {
+      "_id": "6ad75ca1f608811ab37160f4",
+      "id": "6ad75ca1f608811ab37160f4",
+      "userId": "6ad75ca1f608811ab37160f3",
+      "barRegistrationNumber": "NY-BAR-2008-84910",
+      "barCouncilState": "New York",
+      "yearOfAdmission": 2008,
+      "verificationStatus": "approved",
+      "verificationNotes": "State Bar Registry credentials verified.",
+      "verificationDocuments": [
+        {
+          "title": "State Bar of New York Certificate of Good Standing",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:20:49.460Z"
+        }
+      ],
+      "practiceAreas": [
+        "Corporate & Commercial",
+        "Taxation & Wealth Planning",
+        "M&A Advisory"
+      ],
+      "primaryDomain": "Corporate & Commercial",
+      "bio": "Senior partner with over 16 years advising tech startups, corporate restructuring, venture funding, and regulatory cross-border compliance.",
+      "education": "LL.M. Columbia Law School; B.A. LL.B. NLSIU",
+      "experienceYears": 16,
+      "consultationFee": 180,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "Rockefeller Center, 45 Rockefeller Plaza, New York, NY 10111",
+      "city": "New York",
+      "state": "NY",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "courtAdmissions": [
+        "New York Supreme Court",
+        "U.S. District Court SDNY"
+      ],
+      "rating": 4.9,
+      "reviewCount": 38,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f6",
+      "id": "6ad75ca1f608811ab37160f6",
+      "userId": "6ad75ca1f608811ab37160f5",
+      "barRegistrationNumber": "CA-BAR-2012-49201",
+      "barCouncilState": "California",
+      "yearOfAdmission": 2012,
+      "verificationStatus": "approved",
+      "verificationNotes": "Credentialed by California State Bar and USPTO.",
+      "verificationDocuments": [
+        {
+          "title": "California State Bar Certificate & USPTO Registration",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:20:49.461Z"
+        }
+      ],
+      "practiceAreas": [
+        "Intellectual Property",
+        "Cyber & Technology Law",
+        "Software Licensing"
+      ],
+      "primaryDomain": "Intellectual Property",
+      "bio": "Specialist IP counsel representing technology ventures in trademark defense, patent prosecution, and software licensing before federal courts.",
+      "education": "J.D. UC Berkeley School of Law; B.S. Stanford University",
+      "experienceYears": 12,
+      "consultationFee": 210,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "555 California Street, Suite 3200, San Francisco, CA 94104",
+      "city": "San Francisco",
+      "state": "CA",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "courtAdmissions": [
+        "California Supreme Court",
+        "USPTO Bar"
+      ],
+      "rating": 5,
+      "reviewCount": 1,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f8",
+      "id": "6ad75ca1f608811ab37160f8",
+      "userId": "6ad75ca1f608811ab37160f7",
+      "barRegistrationNumber": "IL-BAR-2004-11823",
+      "barCouncilState": "Illinois",
+      "yearOfAdmission": 2004,
+      "verificationStatus": "approved",
+      "verificationNotes": "Verified bar standing with Supreme Court of Illinois.",
+      "verificationDocuments": [
+        {
+          "title": "Illinois Supreme Court License to Practice Law",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:20:49.461Z"
+        }
+      ],
+      "practiceAreas": [
+        "Criminal Defense",
+        "Civil Rights",
+        "Appellate Advocacy"
+      ],
+      "primaryDomain": "Criminal Defense",
+      "bio": "Seasoned trial advocate with 20 years defending individuals in complex regulatory investigations, white-collar defense, and constitutional appeals.",
+      "education": "J.D. Northwestern Pritzker School of Law",
+      "experienceYears": 20,
+      "consultationFee": 195,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "One Prudential Plaza, 130 E Randolph St, Chicago, IL 60601",
+      "city": "Chicago",
+      "state": "IL",
+      "languages": [
+        "English"
+      ],
+      "courtAdmissions": [
+        "Illinois Supreme Court",
+        "U.S. 7th Circuit Court of Appeals"
+      ],
+      "rating": 4.8,
+      "reviewCount": 29,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160fa",
+      "id": "6ad75ca1f608811ab37160fa",
+      "userId": "6ad75ca1f608811ab37160f9",
+      "barRegistrationNumber": "WA-BAR-2015-33821",
+      "barCouncilState": "Washington",
+      "yearOfAdmission": 2015,
+      "verificationStatus": "approved",
+      "verificationNotes": "Washington State Bar Association certified.",
+      "verificationDocuments": [
+        {
+          "title": "Washington State Bar License",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:20:49.461Z"
+        }
+      ],
+      "practiceAreas": [
+        "Family & Matrimonial",
+        "Real Estate & Property"
+      ],
+      "primaryDomain": "Family & Matrimonial",
+      "bio": "Compassionate family law and property settlement counsel with a proven track record in mediation, matrimonial agreements, and custody matters.",
+      "education": "J.D. University of Washington School of Law",
+      "experienceYears": 9,
+      "consultationFee": 165,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "1201 Third Avenue, Suite 2200, Seattle, WA 98101",
+      "city": "Seattle",
+      "state": "WA",
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "courtAdmissions": [
+        "Washington State Supreme Court"
+      ],
+      "rating": 4.9,
+      "reviewCount": 24,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:20:49.461Z",
+      "updatedAt": "2026-10-20T12:20:49.461Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacee",
+      "id": "6ad761de2f64aa66e9bdacee",
+      "userId": "6ad761de2f64aa66e9bdaced",
+      "barRegistrationNumber": "FL-BAR-2011-55823",
+      "barCouncilState": "Florida",
+      "yearOfAdmission": 2011,
+      "verificationStatus": "approved",
+      "verificationNotes": "Florida Bar Board Certified Real Estate Specialist.",
+      "verificationDocuments": [
+        {
+          "title": "The Florida Bar Certificate of Standing",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:43:10.200Z"
+        }
+      ],
+      "practiceAreas": [
+        "Real Estate & Property",
+        "Zoning & Land Use",
+        "Commercial Leases"
+      ],
+      "primaryDomain": "Real Estate & Property",
+      "bio": "Premier commercial real estate attorney specializing in multi-million dollar property transactions, title due diligence, zoning disputes, and leasing.",
+      "education": "J.D. University of Miami School of Law",
+      "experienceYears": 13,
+      "consultationFee": 175,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "Brickell World Plaza, 600 Brickell Ave, Miami, FL 33131",
+      "city": "Miami",
+      "state": "FL",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "courtAdmissions": [
+        "Florida Supreme Court",
+        "U.S. District Court SDFL"
+      ],
+      "rating": 4.9,
+      "reviewCount": 31,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:43:10.200Z",
+      "updatedAt": "2026-10-20T12:43:10.200Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacf5",
+      "id": "6ad761de2f64aa66e9bdacf5",
+      "userId": "6ad761de2f64aa66e9bdacf4",
+      "barRegistrationNumber": "TX-BAR-2017-66291",
+      "barCouncilState": "Texas",
+      "yearOfAdmission": 2017,
+      "verificationStatus": "approved",
+      "verificationNotes": "State Bar of Texas & IAPP Certified Privacy Professional (CIPP/US).",
+      "verificationDocuments": [
+        {
+          "title": "State Bar of Texas Law License",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:43:10.200Z"
+        }
+      ],
+      "practiceAreas": [
+        "Cyber & Technology Law",
+        "Data Privacy (GDPR/CCPA)",
+        "AI Compliance"
+      ],
+      "primaryDomain": "Cyber & Technology Law",
+      "bio": "Tech regulatory attorney guiding SaaS enterprises, fintechs, and AI founders through privacy laws, security incident response, and vendor risk audits.",
+      "education": "J.D. University of Texas School of Law; B.S. Computer Science",
+      "experienceYears": 7,
+      "consultationFee": 160,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "100 Congress Avenue, Suite 1900, Austin, TX 78701",
+      "city": "Austin",
+      "state": "TX",
+      "languages": [
+        "English",
+        "Gujarati"
+      ],
+      "courtAdmissions": [
+        "Texas Supreme Court"
+      ],
+      "rating": 5,
+      "reviewCount": 22,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:43:10.201Z",
+      "updatedAt": "2026-10-20T12:43:10.201Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdacfc",
+      "id": "6ad761de2f64aa66e9bdacfc",
+      "userId": "6ad761de2f64aa66e9bdacfb",
+      "barRegistrationNumber": "MA-BAR-2013-11849",
+      "barCouncilState": "Massachusetts",
+      "yearOfAdmission": 2013,
+      "verificationStatus": "approved",
+      "verificationNotes": "Massachusetts Board of Bar Overseers credentialed.",
+      "verificationDocuments": [
+        {
+          "title": "Commonwealth of Massachusetts Bar License",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:43:10.200Z"
+        }
+      ],
+      "practiceAreas": [
+        "Labor & Employment",
+        "Severance Negotiations",
+        "Executive Compensation"
+      ],
+      "primaryDomain": "Labor & Employment",
+      "bio": "Top employment law attorney defending employees and consulting startups in non-compete agreements, executive contracts, wage claims, and workplace rights.",
+      "education": "J.D. Harvard Law School",
+      "experienceYears": 11,
+      "consultationFee": 190,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "Exchange Place, 53 State Street, Boston, MA 02109",
+      "city": "Boston",
+      "state": "MA",
+      "languages": [
+        "English",
+        "French"
+      ],
+      "courtAdmissions": [
+        "Massachusetts Supreme Judicial Court",
+        "First Circuit Court of Appeals"
+      ],
+      "rating": 4.9,
+      "reviewCount": 35,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:43:10.203Z",
+      "updatedAt": "2026-10-20T12:43:10.203Z"
+    },
+    {
+      "_id": "6ad761de2f64aa66e9bdad03",
+      "id": "6ad761de2f64aa66e9bdad03",
+      "userId": "6ad761de2f64aa66e9bdad02",
+      "barRegistrationNumber": "DC-BAR-2014-99382",
+      "barCouncilState": "District of Columbia",
+      "yearOfAdmission": 2014,
+      "verificationStatus": "approved",
+      "verificationNotes": "District of Columbia Bar member in good standing.",
+      "verificationDocuments": [
+        {
+          "title": "District of Columbia Bar Certificate",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T12:43:10.200Z"
+        }
+      ],
+      "practiceAreas": [
+        "Taxation & Wealth Planning",
+        "Estate Planning",
+        "Corporate Tax Structuring"
+      ],
+      "primaryDomain": "Taxation & Wealth Planning",
+      "bio": "Former Federal Tax advisor counseling high-net-worth individuals and corporations on domestic/offshore asset protection, tax controversy, and family trusts.",
+      "education": "LL.M. in Taxation, Georgetown University Law Center; J.D. Yale Law School",
+      "experienceYears": 10,
+      "consultationFee": 200,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "1050 Connecticut Ave NW, Suite 500, Washington, DC 20036",
+      "city": "Washington",
+      "state": "DC",
+      "languages": [
+        "English"
+      ],
+      "courtAdmissions": [
+        "District of Columbia Court of Appeals",
+        "U.S. Tax Court"
+      ],
+      "rating": 5,
+      "reviewCount": 27,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T12:43:10.204Z",
+      "updatedAt": "2026-10-20T12:43:10.204Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b02",
+      "id": "6ad7706c428829c0a3d40b02",
+      "userId": "6ad7706c428829c0a3d40b01",
+      "barRegistrationNumber": "TX-BAR-2009-38291",
+      "barCouncilState": "Texas",
+      "yearOfAdmission": 2009,
+      "verificationStatus": "approved",
+      "verificationNotes": "State Bar of Texas Civil Trial Specialist in good standing.",
+      "verificationDocuments": [
+        {
+          "title": "State Bar of Texas Certificate of Good Standing",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T13:45:16.811Z"
+        }
+      ],
+      "practiceAreas": [
+        "Civil Litigation",
+        "Corporate & Commercial",
+        "Commercial Arbitration"
+      ],
+      "primaryDomain": "Corporate & Commercial",
+      "bio": "Seasoned civil trial attorney with 15 years representing businesses in complex contract disputes, partnership breakups, trade secrets, and arbitration hearings.",
+      "education": "J.D. University of Texas School of Law",
+      "experienceYears": 15,
+      "consultationFee": 170,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "1000 Louisiana St, Suite 4000, Houston, TX 77002",
+      "city": "Houston",
+      "state": "TX",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "courtAdmissions": [
+        "Texas Supreme Court",
+        "U.S. District Court SDTX"
+      ],
+      "rating": 4.9,
+      "reviewCount": 34,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T13:45:16.813Z",
+      "updatedAt": "2026-10-20T13:45:16.813Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b09",
+      "id": "6ad7706c428829c0a3d40b09",
+      "userId": "6ad7706c428829c0a3d40b08",
+      "barRegistrationNumber": "NY-BAR-2016-55910",
+      "barCouncilState": "New York",
+      "yearOfAdmission": 2016,
+      "verificationStatus": "approved",
+      "verificationNotes": "New York Bar Association and AILA immigration practitioner member.",
+      "verificationDocuments": [
+        {
+          "title": "New York Supreme Court License",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T13:45:16.811Z"
+        }
+      ],
+      "practiceAreas": [
+        "Immigration & Naturalization",
+        "Corporate & Commercial",
+        "Family & Matrimonial"
+      ],
+      "primaryDomain": "Family & Matrimonial",
+      "bio": "Passionate counsel assisting founders, engineers, and families navigate corporate employment visas (H-1B, L-1, O-1), investor petitions, and permanent residency.",
+      "education": "J.D. NYU School of Law; B.A. International Relations",
+      "experienceYears": 8,
+      "consultationFee": 140,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "405 Lexington Ave, Chrysler Building, New York, NY 10174",
+      "city": "New York",
+      "state": "NY",
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "courtAdmissions": [
+        "New York Supreme Court",
+        "EOIR Immigration Courts"
+      ],
+      "rating": 5,
+      "reviewCount": 41,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T13:45:16.816Z",
+      "updatedAt": "2026-10-20T13:45:16.816Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b10",
+      "id": "6ad7706c428829c0a3d40b10",
+      "userId": "6ad7706c428829c0a3d40b0f",
+      "barRegistrationNumber": "NC-BAR-2006-22481",
+      "barCouncilState": "North Carolina",
+      "yearOfAdmission": 2006,
+      "verificationStatus": "approved",
+      "verificationNotes": "North Carolina State Bar certified financial compliance counsel.",
+      "verificationDocuments": [
+        {
+          "title": "North Carolina Bar License",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T13:45:16.811Z"
+        }
+      ],
+      "practiceAreas": [
+        "Banking & Financial Law",
+        "Corporate & Commercial",
+        "Taxation & Wealth Planning"
+      ],
+      "primaryDomain": "Corporate & Commercial",
+      "bio": "Senior financial regulatory attorney advising regional banks, fintech payment rails, credit unions, and private equity funds on SEC, CFPB, and BSA compliance.",
+      "education": "J.D. Duke University School of Law; B.S. Finance",
+      "experienceYears": 18,
+      "consultationFee": 220,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "301 S College St, Suite 2800, Charlotte, NC 28202",
+      "city": "Charlotte",
+      "state": "NC",
+      "languages": [
+        "English"
+      ],
+      "courtAdmissions": [
+        "North Carolina Supreme Court",
+        "U.S. 4th Circuit Court of Appeals"
+      ],
+      "rating": 4.9,
+      "reviewCount": 39,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T13:45:16.817Z",
+      "updatedAt": "2026-10-20T13:45:16.817Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b17",
+      "id": "6ad7706c428829c0a3d40b17",
+      "userId": "6ad7706c428829c0a3d40b16",
+      "barRegistrationNumber": "PA-BAR-2014-77312",
+      "barCouncilState": "Pennsylvania",
+      "yearOfAdmission": 2014,
+      "verificationStatus": "approved",
+      "verificationNotes": "Supreme Court of Pennsylvania and American Health Law Association member.",
+      "verificationDocuments": [
+        {
+          "title": "Pennsylvania Supreme Court Certificate",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T13:45:16.811Z"
+        }
+      ],
+      "practiceAreas": [
+        "Labor & Employment",
+        "Healthcare Law",
+        "Corporate & Commercial"
+      ],
+      "primaryDomain": "Labor & Employment",
+      "bio": "Healthcare compliance and employment lawyer counseling hospitals, medical practitioners, and health-tech founders on HIPAA, physician contracts, and regulatory licensing.",
+      "education": "J.D. University of Pennsylvania Carey Law School; M.P.H.",
+      "experienceYears": 10,
+      "consultationFee": 185,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "1735 Market St, Suite 3300, Philadelphia, PA 19103",
+      "city": "Philadelphia",
+      "state": "PA",
+      "languages": [
+        "English",
+        "Marathi",
+        "Hindi"
+      ],
+      "courtAdmissions": [
+        "Supreme Court of Pennsylvania",
+        "U.S. District Court EDPA"
+      ],
+      "rating": 4.8,
+      "reviewCount": 26,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T13:45:16.818Z",
+      "updatedAt": "2026-10-20T13:45:16.818Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b1e",
+      "id": "6ad7706c428829c0a3d40b1e",
+      "userId": "6ad7706c428829c0a3d40b1d",
+      "barRegistrationNumber": "CO-BAR-2010-99413",
+      "barCouncilState": "Colorado",
+      "yearOfAdmission": 2010,
+      "verificationStatus": "approved",
+      "verificationNotes": "Colorado Supreme Court certified environmental regulatory counsel.",
+      "verificationDocuments": [
+        {
+          "title": "Colorado Supreme Court Certificate of Good Standing",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T13:45:16.811Z"
+        }
+      ],
+      "practiceAreas": [
+        "Real Estate & Property",
+        "Environmental Law",
+        "Corporate & Commercial"
+      ],
+      "primaryDomain": "Real Estate & Property",
+      "bio": "Natural resources and real property attorney guiding clean-tech ventures, land conservation trusts, and solar developers through water rights, zoning, and EPA reviews.",
+      "education": "J.D. University of Colorado Law School",
+      "experienceYears": 14,
+      "consultationFee": 190,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "1144 15th St, Suite 2100, Denver, CO 80202",
+      "city": "Denver",
+      "state": "CO",
+      "languages": [
+        "English"
+      ],
+      "courtAdmissions": [
+        "Colorado Supreme Court",
+        "Tenth Circuit Court of Appeals"
+      ],
+      "rating": 4.9,
+      "reviewCount": 28,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T13:45:16.819Z",
+      "updatedAt": "2026-10-20T13:45:16.819Z"
+    },
+    {
+      "_id": "6ad7706c428829c0a3d40b25",
+      "id": "6ad7706c428829c0a3d40b25",
+      "userId": "6ad7706c428829c0a3d40b24",
+      "barRegistrationNumber": "CA-BAR-2015-66180",
+      "barCouncilState": "California",
+      "yearOfAdmission": 2015,
+      "verificationStatus": "approved",
+      "verificationNotes": "State Bar of California Entertainment & IP Section member in good standing.",
+      "verificationDocuments": [
+        {
+          "title": "California State Bar License",
+          "documentType": "bar_license",
+          "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&auto=format&fit=crop&q=80",
+          "verifiedAt": "2026-10-20T13:45:16.811Z"
+        }
+      ],
+      "practiceAreas": [
+        "Intellectual Property",
+        "Entertainment Law",
+        "Cyber & Technology Law"
+      ],
+      "primaryDomain": "Intellectual Property",
+      "bio": "Media and entertainment attorney negotiating studio production deals, music distribution, digital creator IP syndication, brand endorsements, and licensing agreements.",
+      "education": "J.D. UCLA School of Law; B.A. Media Studies",
+      "experienceYears": 9,
+      "consultationFee": 175,
+      "consultationDurationMinutes": 45,
+      "officeAddress": "1999 Avenue of the Stars, Century City, Los Angeles, CA 90067",
+      "city": "Los Angeles",
+      "state": "CA",
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "courtAdmissions": [
+        "California Supreme Court",
+        "U.S. District Court CDCA"
+      ],
+      "rating": 5,
+      "reviewCount": 33,
+      "isAcceptingNewClients": true,
+      "isDemo": false,
+      "createdAt": "2026-10-20T13:45:16.820Z",
+      "updatedAt": "2026-10-20T13:45:16.820Z"
+    }
+  ],
+  "legalDomains": [
+    {
+      "_id": "6ad75ca1f608811ab37160ea",
+      "id": "6ad75ca1f608811ab37160ea",
+      "name": "Corporate & Commercial",
+      "slug": "corporate-commercial",
+      "description": "Business formation, contracts, M&A, regulatory compliance, and corporate governance.",
+      "icon": "Briefcase",
+      "isPopular": true,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.457Z",
+      "updatedAt": "2026-10-20T12:20:49.457Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160eb",
+      "id": "6ad75ca1f608811ab37160eb",
+      "name": "Intellectual Property",
+      "slug": "intellectual-property",
+      "description": "Patents, trademarks, copyrights, trade secrets, and software licensing agreements.",
+      "icon": "ShieldCheck",
+      "isPopular": true,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160ec",
+      "id": "6ad75ca1f608811ab37160ec",
+      "name": "Criminal Defense",
+      "slug": "criminal-defense",
+      "description": "White-collar investigations, bail applications, appeals, and courtroom representation.",
+      "icon": "Scale",
+      "isPopular": true,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160ed",
+      "id": "6ad75ca1f608811ab37160ed",
+      "name": "Family & Matrimonial",
+      "slug": "family-matrimonial",
+      "description": "Divorce, child custody, marital agreements, probate, and domestic disputes.",
+      "icon": "Users",
+      "isPopular": true,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160ee",
+      "id": "6ad75ca1f608811ab37160ee",
+      "name": "Real Estate & Property",
+      "slug": "real-estate-property",
+      "description": "Title deeds, land acquisition, lease agreements, tenancy conflicts, and zoning laws.",
+      "icon": "Building",
+      "isPopular": true,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160ef",
+      "id": "6ad75ca1f608811ab37160ef",
+      "name": "Labor & Employment",
+      "slug": "labor-employment",
+      "description": "Workplace contracts, wrongful termination, severance negotiations, and labor compliance.",
+      "icon": "FileText",
+      "isPopular": false,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f0",
+      "id": "6ad75ca1f608811ab37160f0",
+      "name": "Cyber & Technology Law",
+      "slug": "cyber-technology",
+      "description": "Data privacy regulations, GDPR compliance, cyber fraud, and digital contracts.",
+      "icon": "Cpu",
+      "isPopular": true,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    },
+    {
+      "_id": "6ad75ca1f608811ab37160f1",
+      "id": "6ad75ca1f608811ab37160f1",
+      "name": "Taxation & Wealth Planning",
+      "slug": "taxation-wealth",
+      "description": "Direct & indirect taxes, corporate restructuring, estate planning, and tax appeals.",
+      "icon": "DollarSign",
+      "isPopular": false,
+      "isActive": true,
+      "createdAt": "2026-10-20T12:20:49.458Z",
+      "updatedAt": "2026-10-20T12:20:49.458Z"
+    }
+  ],
+  "availability": [
+    {
+      "lawyerId": "6ad75ca1f608811ab37160fb",
+      "slots": {
+        "_id": "6ad75ca1f608811ab37160fb",
+        "id": "6ad75ca1f608811ab37160fb",
+        "lawyerId": "6ad75ca1f608811ab37160f4",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab37160fc",
+      "slots": {
+        "_id": "6ad75ca1f608811ab37160fc",
+        "id": "6ad75ca1f608811ab37160fc",
+        "lawyerId": "6ad75ca1f608811ab37160f4",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab37160fd",
+      "slots": {
+        "_id": "6ad75ca1f608811ab37160fd",
+        "id": "6ad75ca1f608811ab37160fd",
+        "lawyerId": "6ad75ca1f608811ab37160f4",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab37160fe",
+      "slots": {
+        "_id": "6ad75ca1f608811ab37160fe",
+        "id": "6ad75ca1f608811ab37160fe",
+        "lawyerId": "6ad75ca1f608811ab37160f4",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab37160ff",
+      "slots": {
+        "_id": "6ad75ca1f608811ab37160ff",
+        "id": "6ad75ca1f608811ab37160ff",
+        "lawyerId": "6ad75ca1f608811ab37160f4",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716100",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716100",
+        "id": "6ad75ca1f608811ab3716100",
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716101",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716101",
+        "id": "6ad75ca1f608811ab3716101",
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716102",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716102",
+        "id": "6ad75ca1f608811ab3716102",
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716103",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716103",
+        "id": "6ad75ca1f608811ab3716103",
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716104",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716104",
+        "id": "6ad75ca1f608811ab3716104",
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.461Z",
+        "updatedAt": "2026-10-20T12:20:49.461Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716105",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716105",
+        "id": "6ad75ca1f608811ab3716105",
+        "lawyerId": "6ad75ca1f608811ab37160f8",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716106",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716106",
+        "id": "6ad75ca1f608811ab3716106",
+        "lawyerId": "6ad75ca1f608811ab37160f8",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716107",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716107",
+        "id": "6ad75ca1f608811ab3716107",
+        "lawyerId": "6ad75ca1f608811ab37160f8",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716108",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716108",
+        "id": "6ad75ca1f608811ab3716108",
+        "lawyerId": "6ad75ca1f608811ab37160f8",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab3716109",
+      "slots": {
+        "_id": "6ad75ca1f608811ab3716109",
+        "id": "6ad75ca1f608811ab3716109",
+        "lawyerId": "6ad75ca1f608811ab37160f8",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab371610a",
+      "slots": {
+        "_id": "6ad75ca1f608811ab371610a",
+        "id": "6ad75ca1f608811ab371610a",
+        "lawyerId": "6ad75ca1f608811ab37160fa",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab371610b",
+      "slots": {
+        "_id": "6ad75ca1f608811ab371610b",
+        "id": "6ad75ca1f608811ab371610b",
+        "lawyerId": "6ad75ca1f608811ab37160fa",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab371610c",
+      "slots": {
+        "_id": "6ad75ca1f608811ab371610c",
+        "id": "6ad75ca1f608811ab371610c",
+        "lawyerId": "6ad75ca1f608811ab37160fa",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab371610d",
+      "slots": {
+        "_id": "6ad75ca1f608811ab371610d",
+        "id": "6ad75ca1f608811ab371610d",
+        "lawyerId": "6ad75ca1f608811ab37160fa",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad75ca1f608811ab371610e",
+      "slots": {
+        "_id": "6ad75ca1f608811ab371610e",
+        "id": "6ad75ca1f608811ab371610e",
+        "lawyerId": "6ad75ca1f608811ab37160fa",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:20:49.462Z",
+        "updatedAt": "2026-10-20T12:20:49.462Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacef",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacef",
+        "id": "6ad761de2f64aa66e9bdacef",
+        "lawyerId": "6ad761de2f64aa66e9bdacee",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.201Z",
+        "updatedAt": "2026-10-20T12:43:10.201Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf0",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf0",
+        "id": "6ad761de2f64aa66e9bdacf0",
+        "lawyerId": "6ad761de2f64aa66e9bdacee",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.201Z",
+        "updatedAt": "2026-10-20T12:43:10.201Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf1",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf1",
+        "id": "6ad761de2f64aa66e9bdacf1",
+        "lawyerId": "6ad761de2f64aa66e9bdacee",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.201Z",
+        "updatedAt": "2026-10-20T12:43:10.201Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf2",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf2",
+        "id": "6ad761de2f64aa66e9bdacf2",
+        "lawyerId": "6ad761de2f64aa66e9bdacee",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.201Z",
+        "updatedAt": "2026-10-20T12:43:10.201Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf3",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf3",
+        "id": "6ad761de2f64aa66e9bdacf3",
+        "lawyerId": "6ad761de2f64aa66e9bdacee",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.201Z",
+        "updatedAt": "2026-10-20T12:43:10.201Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf6",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf6",
+        "id": "6ad761de2f64aa66e9bdacf6",
+        "lawyerId": "6ad761de2f64aa66e9bdacf5",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.202Z",
+        "updatedAt": "2026-10-20T12:43:10.202Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf7",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf7",
+        "id": "6ad761de2f64aa66e9bdacf7",
+        "lawyerId": "6ad761de2f64aa66e9bdacf5",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.202Z",
+        "updatedAt": "2026-10-20T12:43:10.202Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf8",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf8",
+        "id": "6ad761de2f64aa66e9bdacf8",
+        "lawyerId": "6ad761de2f64aa66e9bdacf5",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.202Z",
+        "updatedAt": "2026-10-20T12:43:10.202Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacf9",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacf9",
+        "id": "6ad761de2f64aa66e9bdacf9",
+        "lawyerId": "6ad761de2f64aa66e9bdacf5",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.202Z",
+        "updatedAt": "2026-10-20T12:43:10.202Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacfa",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacfa",
+        "id": "6ad761de2f64aa66e9bdacfa",
+        "lawyerId": "6ad761de2f64aa66e9bdacf5",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.202Z",
+        "updatedAt": "2026-10-20T12:43:10.202Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacfd",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacfd",
+        "id": "6ad761de2f64aa66e9bdacfd",
+        "lawyerId": "6ad761de2f64aa66e9bdacfc",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.203Z",
+        "updatedAt": "2026-10-20T12:43:10.203Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacfe",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacfe",
+        "id": "6ad761de2f64aa66e9bdacfe",
+        "lawyerId": "6ad761de2f64aa66e9bdacfc",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.203Z",
+        "updatedAt": "2026-10-20T12:43:10.203Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdacff",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdacff",
+        "id": "6ad761de2f64aa66e9bdacff",
+        "lawyerId": "6ad761de2f64aa66e9bdacfc",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.203Z",
+        "updatedAt": "2026-10-20T12:43:10.203Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad00",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad00",
+        "id": "6ad761de2f64aa66e9bdad00",
+        "lawyerId": "6ad761de2f64aa66e9bdacfc",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.203Z",
+        "updatedAt": "2026-10-20T12:43:10.203Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad01",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad01",
+        "id": "6ad761de2f64aa66e9bdad01",
+        "lawyerId": "6ad761de2f64aa66e9bdacfc",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.203Z",
+        "updatedAt": "2026-10-20T12:43:10.203Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad04",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad04",
+        "id": "6ad761de2f64aa66e9bdad04",
+        "lawyerId": "6ad761de2f64aa66e9bdad03",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.204Z",
+        "updatedAt": "2026-10-20T12:43:10.204Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad05",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad05",
+        "id": "6ad761de2f64aa66e9bdad05",
+        "lawyerId": "6ad761de2f64aa66e9bdad03",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.204Z",
+        "updatedAt": "2026-10-20T12:43:10.204Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad06",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad06",
+        "id": "6ad761de2f64aa66e9bdad06",
+        "lawyerId": "6ad761de2f64aa66e9bdad03",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.204Z",
+        "updatedAt": "2026-10-20T12:43:10.204Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad07",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad07",
+        "id": "6ad761de2f64aa66e9bdad07",
+        "lawyerId": "6ad761de2f64aa66e9bdad03",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.204Z",
+        "updatedAt": "2026-10-20T12:43:10.204Z"
+      }
+    },
+    {
+      "lawyerId": "6ad761de2f64aa66e9bdad08",
+      "slots": {
+        "_id": "6ad761de2f64aa66e9bdad08",
+        "id": "6ad761de2f64aa66e9bdad08",
+        "lawyerId": "6ad761de2f64aa66e9bdad03",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T12:43:10.204Z",
+        "updatedAt": "2026-10-20T12:43:10.204Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b03",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b03",
+        "id": "6ad7706c428829c0a3d40b03",
+        "lawyerId": "6ad7706c428829c0a3d40b02",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.815Z",
+        "updatedAt": "2026-10-20T13:45:16.815Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b04",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b04",
+        "id": "6ad7706c428829c0a3d40b04",
+        "lawyerId": "6ad7706c428829c0a3d40b02",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.815Z",
+        "updatedAt": "2026-10-20T13:45:16.815Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b05",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b05",
+        "id": "6ad7706c428829c0a3d40b05",
+        "lawyerId": "6ad7706c428829c0a3d40b02",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.815Z",
+        "updatedAt": "2026-10-20T13:45:16.815Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b06",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b06",
+        "id": "6ad7706c428829c0a3d40b06",
+        "lawyerId": "6ad7706c428829c0a3d40b02",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.815Z",
+        "updatedAt": "2026-10-20T13:45:16.815Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b07",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b07",
+        "id": "6ad7706c428829c0a3d40b07",
+        "lawyerId": "6ad7706c428829c0a3d40b02",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.815Z",
+        "updatedAt": "2026-10-20T13:45:16.815Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b0a",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b0a",
+        "id": "6ad7706c428829c0a3d40b0a",
+        "lawyerId": "6ad7706c428829c0a3d40b09",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.816Z",
+        "updatedAt": "2026-10-20T13:45:16.816Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b0b",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b0b",
+        "id": "6ad7706c428829c0a3d40b0b",
+        "lawyerId": "6ad7706c428829c0a3d40b09",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.816Z",
+        "updatedAt": "2026-10-20T13:45:16.816Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b0c",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b0c",
+        "id": "6ad7706c428829c0a3d40b0c",
+        "lawyerId": "6ad7706c428829c0a3d40b09",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.816Z",
+        "updatedAt": "2026-10-20T13:45:16.816Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b0d",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b0d",
+        "id": "6ad7706c428829c0a3d40b0d",
+        "lawyerId": "6ad7706c428829c0a3d40b09",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.816Z",
+        "updatedAt": "2026-10-20T13:45:16.816Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b0e",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b0e",
+        "id": "6ad7706c428829c0a3d40b0e",
+        "lawyerId": "6ad7706c428829c0a3d40b09",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.816Z",
+        "updatedAt": "2026-10-20T13:45:16.816Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b11",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b11",
+        "id": "6ad7706c428829c0a3d40b11",
+        "lawyerId": "6ad7706c428829c0a3d40b10",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b12",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b12",
+        "id": "6ad7706c428829c0a3d40b12",
+        "lawyerId": "6ad7706c428829c0a3d40b10",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b13",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b13",
+        "id": "6ad7706c428829c0a3d40b13",
+        "lawyerId": "6ad7706c428829c0a3d40b10",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b14",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b14",
+        "id": "6ad7706c428829c0a3d40b14",
+        "lawyerId": "6ad7706c428829c0a3d40b10",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b15",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b15",
+        "id": "6ad7706c428829c0a3d40b15",
+        "lawyerId": "6ad7706c428829c0a3d40b10",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b18",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b18",
+        "id": "6ad7706c428829c0a3d40b18",
+        "lawyerId": "6ad7706c428829c0a3d40b17",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b19",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b19",
+        "id": "6ad7706c428829c0a3d40b19",
+        "lawyerId": "6ad7706c428829c0a3d40b17",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b1a",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b1a",
+        "id": "6ad7706c428829c0a3d40b1a",
+        "lawyerId": "6ad7706c428829c0a3d40b17",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b1b",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b1b",
+        "id": "6ad7706c428829c0a3d40b1b",
+        "lawyerId": "6ad7706c428829c0a3d40b17",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b1c",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b1c",
+        "id": "6ad7706c428829c0a3d40b1c",
+        "lawyerId": "6ad7706c428829c0a3d40b17",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.818Z",
+        "updatedAt": "2026-10-20T13:45:16.818Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b1f",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b1f",
+        "id": "6ad7706c428829c0a3d40b1f",
+        "lawyerId": "6ad7706c428829c0a3d40b1e",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.820Z",
+        "updatedAt": "2026-10-20T13:45:16.820Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b20",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b20",
+        "id": "6ad7706c428829c0a3d40b20",
+        "lawyerId": "6ad7706c428829c0a3d40b1e",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.820Z",
+        "updatedAt": "2026-10-20T13:45:16.820Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b21",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b21",
+        "id": "6ad7706c428829c0a3d40b21",
+        "lawyerId": "6ad7706c428829c0a3d40b1e",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.820Z",
+        "updatedAt": "2026-10-20T13:45:16.820Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b22",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b22",
+        "id": "6ad7706c428829c0a3d40b22",
+        "lawyerId": "6ad7706c428829c0a3d40b1e",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.820Z",
+        "updatedAt": "2026-10-20T13:45:16.820Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b23",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b23",
+        "id": "6ad7706c428829c0a3d40b23",
+        "lawyerId": "6ad7706c428829c0a3d40b1e",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.820Z",
+        "updatedAt": "2026-10-20T13:45:16.820Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b26",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b26",
+        "id": "6ad7706c428829c0a3d40b26",
+        "lawyerId": "6ad7706c428829c0a3d40b25",
+        "dayOfWeek": 1,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.821Z",
+        "updatedAt": "2026-10-20T13:45:16.821Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b27",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b27",
+        "id": "6ad7706c428829c0a3d40b27",
+        "lawyerId": "6ad7706c428829c0a3d40b25",
+        "dayOfWeek": 2,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.821Z",
+        "updatedAt": "2026-10-20T13:45:16.821Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b28",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b28",
+        "id": "6ad7706c428829c0a3d40b28",
+        "lawyerId": "6ad7706c428829c0a3d40b25",
+        "dayOfWeek": 3,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.821Z",
+        "updatedAt": "2026-10-20T13:45:16.821Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b29",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b29",
+        "id": "6ad7706c428829c0a3d40b29",
+        "lawyerId": "6ad7706c428829c0a3d40b25",
+        "dayOfWeek": 4,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.821Z",
+        "updatedAt": "2026-10-20T13:45:16.821Z"
+      }
+    },
+    {
+      "lawyerId": "6ad7706c428829c0a3d40b2a",
+      "slots": {
+        "_id": "6ad7706c428829c0a3d40b2a",
+        "id": "6ad7706c428829c0a3d40b2a",
+        "lawyerId": "6ad7706c428829c0a3d40b25",
+        "dayOfWeek": 5,
+        "startTime": "09:00",
+        "endTime": "17:00",
+        "slotDurationMinutes": 45,
+        "breakStartTime": "13:00",
+        "breakEndTime": "14:00",
+        "isAvailable": true,
+        "blockedDates": [],
+        "createdAt": "2026-10-20T13:45:16.821Z",
+        "updatedAt": "2026-10-20T13:45:16.821Z"
+      }
+    }
+  ],
+  "appointments": [
+    {
+      "_id": "6ad790393ffe3776f92a84ca",
+      "id": "6ad790393ffe3776f92a84ca",
+      "lawyerId": "test_lawyer_conflict_check",
+      "clientId": "client_A",
+      "clientName": "Client A",
+      "clientEmail": "clienta@example.com",
+      "lawyerName": "Test Lawyer",
+      "lawyerEmail": "testlawyer@example.com",
+      "legalDomainId": "corporate",
+      "legalDomainName": "Corporate",
+      "appointmentDate": "2026-11-20",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 150,
+      "issueSummary": "First booking on slot",
+      "paymentStatus": "paid",
+      "meetingLink": "https://meet.legalconnect.org/room/6ad79039",
+      "createdAt": "2026-10-20T16:00:57.640Z",
+      "updatedAt": "2026-10-20T16:00:57.640Z"
+    },
+    {
+      "_id": "6ad790bfd20c1da13c65a3f3",
+      "id": "6ad790bfd20c1da13c65a3f3",
+      "lawyerId": "test_lawyer_conflict_1792512191365",
+      "clientId": "client_A",
+      "clientName": "Client A",
+      "clientEmail": "clienta@example.com",
+      "lawyerName": "Test Lawyer",
+      "lawyerEmail": "testlawyer@example.com",
+      "legalDomainId": "corporate",
+      "legalDomainName": "Corporate",
+      "appointmentDate": "2026-11-20",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 150,
+      "issueSummary": "First booking on slot",
+      "paymentStatus": "paid",
+      "meetingLink": "https://meet.legalconnect.org/room/6ad790bf",
+      "createdAt": "2026-10-20T16:03:11.366Z",
+      "updatedAt": "2026-10-20T16:03:11.366Z"
+    },
+    {
+      "_id": "6ad7910f4250087faab3a961",
+      "id": "6ad7910f4250087faab3a961",
+      "lawyerId": "test_lawyer_conflict_1792512271598",
+      "clientId": "client_A",
+      "clientName": "Client A",
+      "clientEmail": "clienta@example.com",
+      "lawyerName": "Test Lawyer",
+      "lawyerEmail": "testlawyer@example.com",
+      "legalDomainId": "corporate",
+      "legalDomainName": "Corporate",
+      "appointmentDate": "2026-11-20",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 150,
+      "issueSummary": "First booking on slot",
+      "paymentStatus": "paid",
+      "meetingLink": "https://meet.legalconnect.org/room/6ad7910f",
+      "createdAt": "2026-10-20T16:04:31.599Z",
+      "updatedAt": "2026-10-20T16:04:31.599Z"
+    },
+    {
+      "_id": "6ad791398c8eeec6f39bae09",
+      "id": "6ad791398c8eeec6f39bae09",
+      "lawyerId": "test_lawyer_conflict_1792512313543",
+      "clientId": "client_A",
+      "clientName": "Client A",
+      "clientEmail": "clienta@example.com",
+      "lawyerName": "Test Lawyer",
+      "lawyerEmail": "testlawyer@example.com",
+      "legalDomainId": "corporate",
+      "legalDomainName": "Corporate",
+      "appointmentDate": "2026-11-20",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 150,
+      "issueSummary": "First booking on slot",
+      "paymentStatus": "paid",
+      "meetingLink": "https://meet.legalconnect.org/room/6ad79139",
+      "createdAt": "2026-10-20T16:05:13.544Z",
+      "updatedAt": "2026-10-20T16:05:13.544Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba22",
+      "id": "6ad7921f1bd04d746bf7ba22",
+      "lawyerId": "6ad75ca1f608811ab37160f6",
+      "clientId": "6ad7921f1bd04d746bf7ba1e",
+      "clientName": "Realtime Verified Client",
+      "clientEmail": "client_1792512542901@testcase.com",
+      "lawyerName": "Adv. Elena Rostova",
+      "lawyerEmail": "elena.lawyer@example.com",
+      "legalDomainId": "corp",
+      "legalDomainName": "Intellectual Property",
+      "appointmentDate": "2026-12-05",
+      "startTime": "15:00",
+      "endTime": "15:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 210,
+      "paymentStatus": "paid",
+      "issueSummary": "Initial consultation regarding commercial vendor contract breach.",
+      "clientQuestions": [],
+      "meetingLink": "https://meet.legalconnect.org/room/6ad7921f",
+      "createdAt": "2026-10-20T16:09:03.141Z",
+      "updatedAt": "2026-10-20T16:09:03.141Z"
+    },
+    {
+      "_id": "6ad792af1c89762db9c91e35",
+      "id": "6ad792af1c89762db9c91e35",
+      "lawyerId": "test_lawyer_conflict_1792512687437",
+      "clientId": "client_A",
+      "clientName": "Client A",
+      "clientEmail": "clienta@example.com",
+      "lawyerName": "Test Lawyer",
+      "lawyerEmail": "testlawyer@example.com",
+      "legalDomainId": "corporate",
+      "legalDomainName": "Corporate",
+      "appointmentDate": "2026-11-20",
+      "startTime": "14:00",
+      "endTime": "14:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 150,
+      "issueSummary": "First booking on slot",
+      "paymentStatus": "paid",
+      "meetingLink": "https://meet.legalconnect.org/room/6ad792af",
+      "createdAt": "2026-10-20T16:11:27.437Z",
+      "updatedAt": "2026-10-20T16:11:27.437Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573eea",
+      "id": "6ad792c41f2b11ec5b573eea",
+      "lawyerId": "6ad75ca1f608811ab37160f6",
+      "clientId": "6ad792c41f2b11ec5b573ee6",
+      "clientName": "Realtime Verified Client",
+      "clientEmail": "client_1792512708037@testcase.com",
+      "lawyerName": "Adv. Elena Rostova",
+      "lawyerEmail": "elena.lawyer@example.com",
+      "legalDomainId": "corp",
+      "legalDomainName": "Intellectual Property",
+      "appointmentDate": "2026-12-10",
+      "startTime": "16:00",
+      "endTime": "16:45",
+      "status": "confirmed",
+      "consultationType": "video",
+      "fee": 210,
+      "paymentStatus": "paid",
+      "issueSummary": "Initial consultation regarding commercial vendor contract breach.",
+      "clientQuestions": [],
+      "meetingLink": "https://meet.legalconnect.org/room/6ad792c4",
+      "createdAt": "2026-10-20T16:11:48.295Z",
+      "updatedAt": "2026-10-20T16:11:48.318Z",
+      "reviewedByClient": true
+    }
+  ],
+  "documents": [
+    {
+      "_id": "6ad7910f4250087faab3a964",
+      "id": "6ad7910f4250087faab3a964",
+      "title": "Commercial Lease Agreement v2",
+      "fileName": "lease_agreement_signed.pdf",
+      "fileSize": "2.4 MB",
+      "fileType": "application/pdf",
+      "uploadedBy": "client_test_1792512271598",
+      "uploadedByName": "Client A",
+      "sharedWith": [
+        "test_lawyer_conflict_1792512271598"
+      ],
+      "tags": [
+        "Property",
+        "Contract"
+      ],
+      "status": "verified",
+      "createdAt": "2026-10-20T16:04:31.604Z",
+      "updatedAt": "2026-10-20T16:04:31.604Z"
+    },
+    {
+      "_id": "6ad791398c8eeec6f39bae0c",
+      "id": "6ad791398c8eeec6f39bae0c",
+      "title": "Commercial Lease Agreement v2",
+      "fileName": "lease_agreement_signed.pdf",
+      "fileSize": "2.4 MB",
+      "fileType": "application/pdf",
+      "uploadedBy": "client_test_1792512313543",
+      "uploadedByName": "Client A",
+      "sharedWith": [
+        "test_lawyer_conflict_1792512313543"
+      ],
+      "tags": [
+        "Property",
+        "Contract"
+      ],
+      "status": "verified",
+      "createdAt": "2026-10-20T16:05:13.549Z",
+      "updatedAt": "2026-10-20T16:05:13.549Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba26",
+      "id": "6ad7921f1bd04d746bf7ba26",
+      "title": "Commercial Agreement Contract 2026",
+      "documentType": "contract",
+      "fileType": "application/pdf",
+      "fileSize": 204800,
+      "fileData": "data:application/pdf;base64,JVBERi0xLjQKJcTl8uXrp/Og0MTGCjQgMCBvYmoKPDwgL0xlbmd0aCA1OSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeJwrSi0uVkjLz0stUrC1VTA0tTAyUDA0NFAwsVAIzy/KSVEoSi3NyVHQ5VKw1dPVVVBwtgUAq/QMNwplbmRzdHJlYW0KZW5kb2Jq",
+      "confidentialityLevel": "lawyer_client_only",
+      "uploadedBy": "6ad7921f1bd04d746bf7ba1e",
+      "uploadedByName": "Realtime Verified Client",
+      "uploadedByRole": "client",
+      "relatedAppointmentId": "6ad7921f1bd04d746bf7ba22",
+      "relatedLawyerId": "6ad75ca1f608811ab37160f6",
+      "relatedClientId": "6ad7921f1bd04d746bf7ba1e",
+      "createdAt": "2026-10-20T16:09:03.153Z",
+      "updatedAt": "2026-10-20T16:09:03.153Z"
+    },
+    {
+      "_id": "6ad792af1c89762db9c91e38",
+      "id": "6ad792af1c89762db9c91e38",
+      "title": "Commercial Lease Agreement v2",
+      "fileName": "lease_agreement_signed.pdf",
+      "fileSize": "2.4 MB",
+      "fileType": "application/pdf",
+      "uploadedBy": "client_test_1792512687437",
+      "uploadedByName": "Client A",
+      "sharedWith": [
+        "test_lawyer_conflict_1792512687437"
+      ],
+      "tags": [
+        "Property",
+        "Contract"
+      ],
+      "status": "verified",
+      "createdAt": "2026-10-20T16:11:27.443Z",
+      "updatedAt": "2026-10-20T16:11:27.443Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573eee",
+      "id": "6ad792c41f2b11ec5b573eee",
+      "title": "Commercial Agreement Contract 2026",
+      "documentType": "contract",
+      "fileType": "application/pdf",
+      "fileSize": 204800,
+      "fileData": "data:application/pdf;base64,JVBERi0xLjQKJcTl8uXrp/Og0MTGCjQgMCBvYmoKPDwgL0xlbmd0aCA1OSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeJwrSi0uVkjLz0stUrC1VTA0tTAyUDA0NFAwsVAIzy/KSVEoSi3NyVHQ5VKw1dPVVVBwtgUAq/QMNwplbmRzdHJlYW0KZW5kb2Jq",
+      "confidentialityLevel": "lawyer_client_only",
+      "uploadedBy": "6ad792c41f2b11ec5b573ee6",
+      "uploadedByName": "Realtime Verified Client",
+      "uploadedByRole": "client",
+      "relatedAppointmentId": "6ad792c41f2b11ec5b573eea",
+      "relatedLawyerId": "6ad75ca1f608811ab37160f6",
+      "relatedClientId": "6ad792c41f2b11ec5b573ee6",
+      "createdAt": "2026-10-20T16:11:48.309Z",
+      "updatedAt": "2026-10-20T16:11:48.309Z"
+    }
+  ],
+  "reviews": [
+    {
+      "_id": "6ad792c41f2b11ec5b573ef0",
+      "id": "6ad792c41f2b11ec5b573ef0",
+      "consultationId": "6ad792c41f2b11ec5b573eea",
+      "lawyerId": "6ad75ca1f608811ab37160f6",
+      "clientId": "6ad792c41f2b11ec5b573ee6",
+      "clientName": "Realtime Verified Client",
+      "rating": 5,
+      "title": "Superb Consultation",
+      "comment": "Exceptional legal advice and clear strategy on vendor contract dispute.",
+      "isVerifiedConsultation": true,
+      "createdAt": "2026-10-20T16:11:48.317Z",
+      "updatedAt": "2026-10-20T16:11:48.317Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "6ad75fce85e58b06221339f8",
+      "id": "6ad75fce85e58b06221339f8",
+      "recipientId": "6ad75fce85e58b06221339f7",
+      "title": "Welcome to LegalConnect!",
+      "message": "Your client account is ready. Browse verified legal practitioners and schedule your first consultation.",
+      "type": "system",
+      "link": "/lawyers",
+      "read": false,
+      "createdAt": "2026-10-20T12:34:22.863Z",
+      "updatedAt": "2026-10-20T12:34:22.863Z"
+    },
+    {
+      "_id": "6ad7620707317648d2913ae0",
+      "id": "6ad7620707317648d2913ae0",
+      "recipientId": "6ad7620707317648d2913adf",
+      "title": "Welcome to LegalConnect!",
+      "message": "Your client account is ready. Browse verified legal practitioners and schedule your first consultation.",
+      "type": "system",
+      "link": "/lawyers",
+      "read": false,
+      "createdAt": "2026-10-20T12:43:51.611Z",
+      "updatedAt": "2026-10-20T12:43:51.611Z"
+    },
+    {
+      "_id": "6ad79178cd60a3ac1a21061e",
+      "id": "6ad79178cd60a3ac1a21061e",
+      "recipientId": "6ad79178cd60a3ac1a21061d",
+      "title": "Welcome to LegalConnect!",
+      "message": "Your client account is ready. Browse verified legal practitioners and schedule your first consultation.",
+      "type": "system",
+      "link": "/lawyers",
+      "read": false,
+      "createdAt": "2026-10-20T16:06:16.516Z",
+      "updatedAt": "2026-10-20T16:06:16.516Z"
+    },
+    {
+      "_id": "6ad7918dcd60a3ac1a210623",
+      "id": "6ad7918dcd60a3ac1a210623",
+      "recipientId": "6ad7918dcd60a3ac1a210622",
+      "title": "Welcome to LegalConnect!",
+      "message": "Your client account is ready. Browse verified legal practitioners and schedule your first consultation.",
+      "type": "system",
+      "link": "/lawyers",
+      "read": false,
+      "createdAt": "2026-10-20T16:06:37.469Z",
+      "updatedAt": "2026-10-20T16:06:37.469Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba1f",
+      "id": "6ad7921f1bd04d746bf7ba1f",
+      "recipientId": "6ad7921f1bd04d746bf7ba1e",
+      "title": "Welcome to LegalConnect!",
+      "message": "Your client account is ready. Browse verified legal practitioners and schedule your first consultation.",
+      "type": "system",
+      "link": "/lawyers",
+      "read": false,
+      "createdAt": "2026-10-20T16:09:03.014Z",
+      "updatedAt": "2026-10-20T16:09:03.014Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba23",
+      "id": "6ad7921f1bd04d746bf7ba23",
+      "recipientId": "6ad75ca1f608811ab37160f5",
+      "title": "New Consultation Booked",
+      "message": "Realtime Verified Client has booked a video session on 2026-12-05 at 15:00.",
+      "type": "booking_request",
+      "link": "/consultations/6ad7921f1bd04d746bf7ba22",
+      "read": false,
+      "createdAt": "2026-10-20T16:09:03.142Z",
+      "updatedAt": "2026-10-20T16:09:03.142Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba24",
+      "id": "6ad7921f1bd04d746bf7ba24",
+      "recipientId": "6ad7921f1bd04d746bf7ba1e",
+      "title": "Consultation Confirmed",
+      "message": "Your appointment with Adv. Elena Rostova is confirmed for 2026-12-05 at 15:00.",
+      "type": "booking_confirmed",
+      "link": "/consultations/6ad7921f1bd04d746bf7ba22",
+      "read": false,
+      "createdAt": "2026-10-20T16:09:03.142Z",
+      "updatedAt": "2026-10-20T16:09:03.142Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ee7",
+      "id": "6ad792c41f2b11ec5b573ee7",
+      "recipientId": "6ad792c41f2b11ec5b573ee6",
+      "title": "Welcome to LegalConnect!",
+      "message": "Your client account is ready. Browse verified legal practitioners and schedule your first consultation.",
+      "type": "system",
+      "link": "/lawyers",
+      "read": false,
+      "createdAt": "2026-10-20T16:11:48.168Z",
+      "updatedAt": "2026-10-20T16:11:48.168Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573eeb",
+      "id": "6ad792c41f2b11ec5b573eeb",
+      "recipientId": "6ad75ca1f608811ab37160f5",
+      "title": "New Consultation Booked",
+      "message": "Realtime Verified Client has booked a video session on 2026-12-10 at 16:00.",
+      "type": "booking_request",
+      "link": "/consultations/6ad792c41f2b11ec5b573eea",
+      "read": false,
+      "createdAt": "2026-10-20T16:11:48.296Z",
+      "updatedAt": "2026-10-20T16:11:48.296Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573eec",
+      "id": "6ad792c41f2b11ec5b573eec",
+      "recipientId": "6ad792c41f2b11ec5b573ee6",
+      "title": "Consultation Confirmed",
+      "message": "Your appointment with Adv. Elena Rostova is confirmed for 2026-12-10 at 16:00.",
+      "type": "booking_confirmed",
+      "link": "/consultations/6ad792c41f2b11ec5b573eea",
+      "read": false,
+      "createdAt": "2026-10-20T16:11:48.297Z",
+      "updatedAt": "2026-10-20T16:11:48.297Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ef1",
+      "id": "6ad792c41f2b11ec5b573ef1",
+      "recipientId": "6ad75ca1f608811ab37160f5",
+      "title": "New Client Review Received",
+      "message": "Realtime Verified Client rated your consultation 5/5: \"Superb Consultation\"",
+      "type": "review_received",
+      "link": "/reviews",
+      "read": false,
+      "createdAt": "2026-10-20T16:11:48.319Z",
+      "updatedAt": "2026-10-20T16:11:48.319Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": "6ad75ca1f608811ab371610f",
+      "id": "6ad75ca1f608811ab371610f",
+      "action": "PLATFORM_INITIALIZED",
+      "actorId": "6ad75ca1f608811ab37160f2",
+      "actorName": "Platform Administrator",
+      "actorRole": "admin",
+      "targetResource": "system",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "version": "1.0.0",
+        "lawyersSeeded": 4,
+        "domainsSeeded": 8
+      },
+      "createdAt": "2026-10-20T12:20:49.462Z"
+    },
+    {
+      "_id": "6ad75fce85e58b06221339f9",
+      "id": "6ad75fce85e58b06221339f9",
+      "action": "USER_REGISTERED",
+      "actorId": "6ad75fce85e58b06221339f7",
+      "actorName": "Test Client",
+      "actorRole": "client",
+      "targetResource": "user",
+      "targetId": "6ad75fce85e58b06221339f7",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "role": "client",
+        "email": "testclient@example.com"
+      },
+      "createdAt": "2026-10-20T12:34:22.864Z"
+    },
+    {
+      "_id": "6ad75fd585e58b06221339fa",
+      "id": "6ad75fd585e58b06221339fa",
+      "action": "USER_LOGIN",
+      "actorId": "6ad75fce85e58b06221339f7",
+      "actorName": "Test Client",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T12:34:29.841Z"
+    },
+    {
+      "_id": "6ad761f507317648d2913add",
+      "id": "6ad761f507317648d2913add",
+      "action": "USER_LOGIN",
+      "actorId": "6ad761de2f64aa66e9bdacea",
+      "actorName": "Sarah Jenkins (Verified Client)",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T12:43:33.160Z"
+    },
+    {
+      "_id": "6ad761fd07317648d2913ade",
+      "id": "6ad761fd07317648d2913ade",
+      "action": "USER_LOGIN",
+      "actorId": "6ad761de2f64aa66e9bdacec",
+      "actorName": "Shraddha Kharade (Client)",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T12:43:41.701Z"
+    },
+    {
+      "_id": "6ad7620707317648d2913ae1",
+      "id": "6ad7620707317648d2913ae1",
+      "action": "USER_REGISTERED",
+      "actorId": "6ad7620707317648d2913adf",
+      "actorName": "Jennifer Cole",
+      "actorRole": "client",
+      "targetResource": "user",
+      "targetId": "6ad7620707317648d2913adf",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "role": "client",
+        "email": "newclient99@example.com"
+      },
+      "createdAt": "2026-10-20T12:43:51.612Z"
+    },
+    {
+      "_id": "6ad7621407317648d2913ae2",
+      "id": "6ad7621407317648d2913ae2",
+      "action": "USER_LOGIN",
+      "actorId": "6ad7620707317648d2913adf",
+      "actorName": "Jennifer Cole",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T12:44:04.014Z"
+    },
+    {
+      "_id": "6ad79178cd60a3ac1a21061c",
+      "id": "6ad79178cd60a3ac1a21061c",
+      "action": "USER_LOGIN",
+      "actorId": "6ad761de2f64aa66e9bdacea",
+      "actorName": "Sarah Jenkins (Verified Client)",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:06:16.401Z"
+    },
+    {
+      "_id": "6ad79178cd60a3ac1a21061f",
+      "id": "6ad79178cd60a3ac1a21061f",
+      "action": "USER_REGISTERED",
+      "actorId": "6ad79178cd60a3ac1a21061d",
+      "actorName": "Live Tested Client",
+      "actorRole": "client",
+      "targetResource": "user",
+      "targetId": "6ad79178cd60a3ac1a21061d",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "role": "client",
+        "email": "user_1792512376407@testcase.com"
+      },
+      "createdAt": "2026-10-20T16:06:16.517Z"
+    },
+    {
+      "_id": "6ad79178cd60a3ac1a210620",
+      "id": "6ad79178cd60a3ac1a210620",
+      "action": "USER_LOGIN",
+      "actorId": "6ad79178cd60a3ac1a21061d",
+      "actorName": "Live Tested Client",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:06:16.662Z"
+    },
+    {
+      "_id": "6ad7918dcd60a3ac1a210621",
+      "id": "6ad7918dcd60a3ac1a210621",
+      "action": "USER_LOGIN",
+      "actorId": "6ad761de2f64aa66e9bdacea",
+      "actorName": "Sarah Jenkins (Verified Client)",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:06:37.365Z"
+    },
+    {
+      "_id": "6ad7918dcd60a3ac1a210624",
+      "id": "6ad7918dcd60a3ac1a210624",
+      "action": "USER_REGISTERED",
+      "actorId": "6ad7918dcd60a3ac1a210622",
+      "actorName": "Live Tested Client",
+      "actorRole": "client",
+      "targetResource": "user",
+      "targetId": "6ad7918dcd60a3ac1a210622",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "role": "client",
+        "email": "user_1792512397368@testcase.com"
+      },
+      "createdAt": "2026-10-20T16:06:37.469Z"
+    },
+    {
+      "_id": "6ad7918dcd60a3ac1a210625",
+      "id": "6ad7918dcd60a3ac1a210625",
+      "action": "USER_LOGIN",
+      "actorId": "6ad7918dcd60a3ac1a210622",
+      "actorName": "Live Tested Client",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:06:37.586Z"
+    },
+    {
+      "_id": "6ad7921e1bd04d746bf7ba1d",
+      "id": "6ad7921e1bd04d746bf7ba1d",
+      "action": "USER_LOGIN",
+      "actorId": "6ad761de2f64aa66e9bdacea",
+      "actorName": "Sarah Jenkins (Verified Client)",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:09:02.897Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba20",
+      "id": "6ad7921f1bd04d746bf7ba20",
+      "action": "USER_REGISTERED",
+      "actorId": "6ad7921f1bd04d746bf7ba1e",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "user",
+      "targetId": "6ad7921f1bd04d746bf7ba1e",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "role": "client",
+        "email": "client_1792512542901@testcase.com"
+      },
+      "createdAt": "2026-10-20T16:09:03.015Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba21",
+      "id": "6ad7921f1bd04d746bf7ba21",
+      "action": "USER_LOGIN",
+      "actorId": "6ad7921f1bd04d746bf7ba1e",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:09:03.125Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba25",
+      "id": "6ad7921f1bd04d746bf7ba25",
+      "action": "APPOINTMENT_BOOKED",
+      "actorId": "6ad7921f1bd04d746bf7ba1e",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "appointment",
+      "targetId": "6ad7921f1bd04d746bf7ba22",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "appointmentDate": "2026-12-05",
+        "startTime": "15:00",
+        "fee": 210
+      },
+      "createdAt": "2026-10-20T16:09:03.143Z"
+    },
+    {
+      "_id": "6ad7921f1bd04d746bf7ba27",
+      "id": "6ad7921f1bd04d746bf7ba27",
+      "action": "DOCUMENT_UPLOADED",
+      "actorId": "6ad7921f1bd04d746bf7ba1e",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "document",
+      "targetId": "6ad7921f1bd04d746bf7ba26",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "title": "Commercial Agreement Contract 2026",
+        "documentType": "contract"
+      },
+      "createdAt": "2026-10-20T16:09:03.154Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ee5",
+      "id": "6ad792c41f2b11ec5b573ee5",
+      "action": "USER_LOGIN",
+      "actorId": "6ad761de2f64aa66e9bdacea",
+      "actorName": "Sarah Jenkins (Verified Client)",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:11:48.032Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ee8",
+      "id": "6ad792c41f2b11ec5b573ee8",
+      "action": "USER_REGISTERED",
+      "actorId": "6ad792c41f2b11ec5b573ee6",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "user",
+      "targetId": "6ad792c41f2b11ec5b573ee6",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "role": "client",
+        "email": "client_1792512708037@testcase.com"
+      },
+      "createdAt": "2026-10-20T16:11:48.169Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ee9",
+      "id": "6ad792c41f2b11ec5b573ee9",
+      "action": "USER_LOGIN",
+      "actorId": "6ad792c41f2b11ec5b573ee6",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "auth",
+      "ipAddress": "127.0.0.1",
+      "createdAt": "2026-10-20T16:11:48.276Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573eed",
+      "id": "6ad792c41f2b11ec5b573eed",
+      "action": "APPOINTMENT_BOOKED",
+      "actorId": "6ad792c41f2b11ec5b573ee6",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "appointment",
+      "targetId": "6ad792c41f2b11ec5b573eea",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "appointmentDate": "2026-12-10",
+        "startTime": "16:00",
+        "fee": 210
+      },
+      "createdAt": "2026-10-20T16:11:48.298Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573eef",
+      "id": "6ad792c41f2b11ec5b573eef",
+      "action": "DOCUMENT_UPLOADED",
+      "actorId": "6ad792c41f2b11ec5b573ee6",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "document",
+      "targetId": "6ad792c41f2b11ec5b573eee",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "title": "Commercial Agreement Contract 2026",
+        "documentType": "contract"
+      },
+      "createdAt": "2026-10-20T16:11:48.310Z"
+    },
+    {
+      "_id": "6ad792c41f2b11ec5b573ef2",
+      "id": "6ad792c41f2b11ec5b573ef2",
+      "action": "REVIEW_SUBMITTED",
+      "actorId": "6ad792c41f2b11ec5b573ee6",
+      "actorName": "Realtime Verified Client",
+      "actorRole": "client",
+      "targetResource": "review",
+      "targetId": "6ad792c41f2b11ec5b573ef0",
+      "ipAddress": "127.0.0.1",
+      "details": {
+        "lawyerId": "6ad75ca1f608811ab37160f6",
+        "rating": 5
+      },
+      "createdAt": "2026-10-20T16:11:48.320Z"
+    }
+  ],
+  "messages": [
+    {
+      "_id": "6ad790393ffe3776f92a84cb",
+      "id": "6ad790393ffe3776f92a84cb",
+      "consultationId": "consultation_chat_test_101",
+      "senderId": "client_A",
+      "senderName": "Client A",
+      "senderRole": "client",
+      "content": "Hello Advocate, I have uploaded the shareholder agreement for review.",
+      "timestamp": 1792512052642,
+      "read": false,
+      "createdAt": "2026-10-20T16:00:57.642Z"
+    },
+    {
+      "_id": "6ad790393ffe3776f92a84cc",
+      "id": "6ad790393ffe3776f92a84cc",
+      "consultationId": "consultation_chat_test_101",
+      "senderId": "test_lawyer_conflict_check",
+      "senderName": "Test Lawyer",
+      "senderRole": "lawyer",
+      "content": "Received. Joining the encrypted video conference now.",
+      "timestamp": 1792512057643,
+      "read": false,
+      "createdAt": "2026-10-20T16:00:57.643Z"
+    },
+    {
+      "_id": "6ad790bfd20c1da13c65a3f4",
+      "id": "6ad790bfd20c1da13c65a3f4",
+      "consultationId": "consultation_chat_test_1792512191365",
+      "senderId": "client_test_1792512191365",
+      "senderName": "Client A",
+      "senderRole": "client",
+      "content": "Hello Advocate, I have uploaded the shareholder agreement for review.",
+      "timestamp": 1792512186367,
+      "read": false,
+      "createdAt": "2026-10-20T16:03:11.367Z"
+    },
+    {
+      "_id": "6ad790bfd20c1da13c65a3f5",
+      "id": "6ad790bfd20c1da13c65a3f5",
+      "consultationId": "consultation_chat_test_1792512191365",
+      "senderId": "test_lawyer_conflict_1792512191365",
+      "senderName": "Test Lawyer",
+      "senderRole": "lawyer",
+      "content": "Received. Joining the encrypted video conference now.",
+      "timestamp": 1792512191368,
+      "read": false,
+      "createdAt": "2026-10-20T16:03:11.368Z"
+    },
+    {
+      "_id": "6ad7910f4250087faab3a962",
+      "id": "6ad7910f4250087faab3a962",
+      "consultationId": "consultation_chat_test_1792512271598",
+      "senderId": "client_test_1792512271598",
+      "senderName": "Client A",
+      "senderRole": "client",
+      "content": "Hello Advocate, I have uploaded the shareholder agreement for review.",
+      "timestamp": 1792512266601,
+      "read": false,
+      "createdAt": "2026-10-20T16:04:31.601Z"
+    },
+    {
+      "_id": "6ad7910f4250087faab3a963",
+      "id": "6ad7910f4250087faab3a963",
+      "consultationId": "consultation_chat_test_1792512271598",
+      "senderId": "test_lawyer_conflict_1792512271598",
+      "senderName": "Test Lawyer",
+      "senderRole": "lawyer",
+      "content": "Received. Joining the encrypted video conference now.",
+      "timestamp": 1792512271602,
+      "read": false,
+      "createdAt": "2026-10-20T16:04:31.602Z"
+    },
+    {
+      "_id": "6ad791398c8eeec6f39bae0a",
+      "id": "6ad791398c8eeec6f39bae0a",
+      "consultationId": "consultation_chat_test_1792512313543",
+      "senderId": "client_test_1792512313543",
+      "senderName": "Client A",
+      "senderRole": "client",
+      "content": "Hello Advocate, I have uploaded the shareholder agreement for review.",
+      "timestamp": 1792512308546,
+      "read": false,
+      "createdAt": "2026-10-20T16:05:13.546Z"
+    },
+    {
+      "_id": "6ad791398c8eeec6f39bae0b",
+      "id": "6ad791398c8eeec6f39bae0b",
+      "consultationId": "consultation_chat_test_1792512313543",
+      "senderId": "test_lawyer_conflict_1792512313543",
+      "senderName": "Test Lawyer",
+      "senderRole": "lawyer",
+      "content": "Received. Joining the encrypted video conference now.",
+      "timestamp": 1792512313547,
+      "read": false,
+      "createdAt": "2026-10-20T16:05:13.547Z"
+    },
+    {
+      "_id": "6ad792af1c89762db9c91e36",
+      "id": "6ad792af1c89762db9c91e36",
+      "consultationId": "consultation_chat_test_1792512687437",
+      "senderId": "client_test_1792512687437",
+      "senderName": "Client A",
+      "senderRole": "client",
+      "content": "Hello Advocate, I have uploaded the shareholder agreement for review.",
+      "timestamp": 1792512682440,
+      "read": false,
+      "createdAt": "2026-10-20T16:11:27.440Z"
+    },
+    {
+      "_id": "6ad792af1c89762db9c91e37",
+      "id": "6ad792af1c89762db9c91e37",
+      "consultationId": "consultation_chat_test_1792512687437",
+      "senderId": "test_lawyer_conflict_1792512687437",
+      "senderName": "Test Lawyer",
+      "senderRole": "lawyer",
+      "content": "Received. Joining the encrypted video conference now.",
+      "timestamp": 1792512687441,
+      "read": false,
+      "createdAt": "2026-10-20T16:11:27.441Z"
+    }
+  ]
+}

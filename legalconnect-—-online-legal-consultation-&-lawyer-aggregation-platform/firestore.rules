@@ -1,0 +1,60 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isValidMessage(data) {
+      return data.keys().hasAll(['id', 'consultationId', 'senderId', 'senderName', 'senderRole', 'content', 'timestamp'])
+        && data.keys().hasOnly(['id', 'consultationId', 'senderId', 'senderName', 'senderRole', 'content', 'timestamp', 'read'])
+        && data.id is string && data.id.size() <= 128
+        && data.consultationId is string && data.consultationId.size() <= 128
+        && data.senderId is string && data.senderId.size() <= 128
+        && data.senderName is string && data.senderName.size() <= 100
+        && (data.senderRole == 'client' || data.senderRole == 'lawyer' || data.senderRole == 'admin')
+        && data.content is string && data.content.size() > 0 && data.content.size() <= 3000
+        && data.timestamp is number
+        && (!('read' in data) || data.read is bool);
+    }
+
+    // Default deny all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Consultation Rooms
+    match /consultations/{consultationId} {
+      allow get: if isValidId(consultationId);
+      allow create, update: if isValidId(consultationId);
+      
+      // Consultation Messages Subcollection
+      match /messages/{messageId} {
+        allow get: if isValidId(consultationId) && isValidId(messageId);
+        allow list: if isValidId(consultationId);
+        allow create: if isValidId(consultationId)
+                      && isValidId(messageId)
+                      && isValidMessage(incoming())
+                      && incoming().consultationId == consultationId;
+        allow update: if isValidId(consultationId)
+                      && isValidId(messageId)
+                      && incoming().diff(existing()).affectedKeys().hasOnly(['read'])
+                      && incoming().read is bool;
+        allow delete: if false;
+      }
+    }
+  }
+}

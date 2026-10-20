@@ -1,0 +1,6 @@
+{
+  "name": "LegalConnect — Online Legal Consultation & Lawyer Aggregation Platform",
+  "description": "Premium full-stack legal consultation marketplace connecting clients with verified lawyers. Book appointments, manage confidential legal documents, track consultation cases, and access AI case briefing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

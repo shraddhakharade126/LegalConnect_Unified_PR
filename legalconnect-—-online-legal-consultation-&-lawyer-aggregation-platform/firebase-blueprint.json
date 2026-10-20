@@ -1,0 +1,84 @@
+{
+  "entities": {
+    "ConsultationMessage": {
+      "title": "ConsultationMessage",
+      "description": "Secure privileged consultation message between client and lawyer",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the message"
+        },
+        "consultationId": {
+          "type": "string",
+          "description": "Reference to consultation room ID"
+        },
+        "senderId": {
+          "type": "string",
+          "description": "User ID of the message sender"
+        },
+        "senderName": {
+          "type": "string",
+          "description": "Display name of the message sender"
+        },
+        "senderRole": {
+          "type": "string",
+          "enum": ["client", "lawyer", "admin"],
+          "description": "Role of the sender"
+        },
+        "content": {
+          "type": "string",
+          "maxLength": 3000,
+          "description": "Text body of the message"
+        },
+        "timestamp": {
+          "type": "number",
+          "description": "Unix timestamp in milliseconds"
+        },
+        "read": {
+          "type": "boolean",
+          "description": "Whether message has been acknowledged"
+        }
+      },
+      "required": ["id", "consultationId", "senderId", "senderName", "senderRole", "content", "timestamp"]
+    },
+    "ConsultationRoom": {
+      "title": "ConsultationRoom",
+      "description": "Active consultation room metadata for real-time communication",
+      "type": "object",
+      "properties": {
+        "consultationId": {
+          "type": "string",
+          "description": "Appointment ID"
+        },
+        "lawyerId": {
+          "type": "string",
+          "description": "Assigned advocate ID"
+        },
+        "clientId": {
+          "type": "string",
+          "description": "Client user ID"
+        },
+        "lastMessage": {
+          "type": "string",
+          "description": "Snippet of last sent message"
+        },
+        "lastUpdated": {
+          "type": "number",
+          "description": "Unix timestamp of last activity"
+        }
+      },
+      "required": ["consultationId", "lawyerId", "clientId"]
+    }
+  },
+  "firestore": {
+    "/consultations/{consultationId}": {
+      "schema": "ConsultationRoom",
+      "description": "Consultation room document defining participants"
+    },
+    "/consultations/{consultationId}/messages/{messageId}": {
+      "schema": "ConsultationMessage",
+      "description": "Privileged real-time messages exchanged in this consultation room"
+    }
+  }
+}

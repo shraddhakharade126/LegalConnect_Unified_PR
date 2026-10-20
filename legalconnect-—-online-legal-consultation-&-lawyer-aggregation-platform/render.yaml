@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: legalconnect-platform
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: (bun install && bun run build) || (npm install && npm run build)
+    startCommand: npm start
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
